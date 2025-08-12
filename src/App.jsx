@@ -63,7 +63,8 @@ const BASE_URL = 'http://localhost:9090/springapp1';
   return (
     <div className="container mt-4">
       <div className="form-container">
-        <h2 className="text-center mb-4">{isEditing ? 'Edit Product' : 'Add Product KLU'}</h2>
+        <h2 className="text-center mb-4">{isEditing ? 'Edit Product' : 'Add Product'}</h2>
+        <h2>KLU</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group row">
             <label htmlFor="id" className="col-sm-3 col-form-label form-label">ID:</label>
